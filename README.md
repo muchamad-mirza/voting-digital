@@ -50,9 +50,9 @@ To run this project locally on your machine:
 
 1\. Clone this repository:
 
-&#x20;  ```bash
+&#x20;  git clone \[https://github.com/muchamad-mirza/voting-digital.git (https://github.com/muchamad-mirza/voting-digital.git)
 
-&#x20;  git clone \[https://github.com/muchamad-mirza/voting-digital.git (https://github.com/muchamad-mirza/voting-digital.git)```
+
 
 2\. Open the project in Apache NetBeans IDE.
 
