@@ -19,11 +19,11 @@ public class HalamanPemilihanSuara extends JFrame {
         setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         setLayout(null); 
         // 2.0 Gambar 
-        JLabel judul = new JLabel(Method.memuatGambar("C:\\Users\\WINDOWS 11\\OneDrive\\Documents\\NetBeansProjects\\File\\Header - Halaman Voting.png", 500, 125));
+        JLabel judul = new JLabel(Method.memuatGambar("assets/header_voting_page.png", 500, 125));
         judul.setBounds(0, 0, 500, 125);
         add(judul);
         // 3.0 Informasi Kandidat
-        String[] gambarKandidat = {"C:\\Users\\WINDOWS 11\\OneDrive\\Documents\\NetBeansProjects\\File\\Kandidat Ke-1.png", "C:\\Users\\WINDOWS 11\\OneDrive\\Documents\\NetBeansProjects\\File\\Kandidat Ke-2.png"};
+        String[] gambarKandidat = {"assets/kandidat_1.png", "assets/kandidat_2.png"};
         String[] namaKandidat = {"Henry Stickman", "Alicia Keys"};
         String[] kelasKandidat = {"Kelas 12 MIPA 4", "Kelas 12 MIPA 6"};
         String[] visiDanMisi = {

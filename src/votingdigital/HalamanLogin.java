@@ -25,7 +25,7 @@ public class HalamanLogin extends JFrame {
         setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         setLayout(null);
         // 2.0 Gambar Header - Judul
-        JLabel judul = new JLabel(Method.memuatGambar("C:\\Users\\WINDOWS 11\\OneDrive\\Documents\\NetBeansProjects\\File\\Header - Sistem Voting Digital.png", 600, 80));
+        JLabel judul = new JLabel(Method.memuatGambar("assets/header_landing_page.png", 600, 80));
         judul.setBounds(0, 0, 600, 80); 
         add(judul);
         // 2.1 Label NISN
