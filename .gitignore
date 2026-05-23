@@ -1,0 +1,12 @@
+# Cache and NetBeans Private Configurations
+/nbproject/private/
+/nbbuild/
+/dist/
+/build/
+
+# Log File
+*.log
+
+# OS File Configurations
+.DS_Store
+Thumbs.db
